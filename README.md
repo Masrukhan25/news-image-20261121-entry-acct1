@@ -1,23 +1,20 @@
-# The World in One Day — 21 November 2026
+# The World in One Day — 33 Stories, 21 November 2026
 
-[![make.fun](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121)
-[![Rank](https://make.fun/badge/news-image-20261121/Masrukhan25/news-image-20261121-entry-acct1/rank.svg)](https://make.fun/bounty/news-image-20261121)
-[![Reward](https://make.fun/badge/news-image-20261121/Masrukhan25/news-image-20261121-entry-acct1/reward.svg)](https://make.fun/bounty/news-image-20261121)
+[![news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/Masrukhan25/news-image-20261121-entry-acct1/rank.svg)](https://make.fun/bounty/news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/Masrukhan25/news-image-20261121-entry-acct1/reward.svg)](https://make.fun/bounty/news-image-20261121)
 
-A square 1:1 editorial news infographic poster summing up the world's news of 21 November 2026: the day's biggest stories in a print-ready broadsheet, with a hero row, a story grid, a world map with numbered pins, and a list of the day's other stories. Every story on the poster happened, or was first reported, on 21 November 2026.
+One picture, one day: 33 verified stories from Saturday 21 November 2026,
+drawn as a flat-vector broadsheet — Wall Street's AI sell-off, three Houthi
+missiles intercepted over Riyadh, and COP31 running into overtime.
 
-## The image
+The entry follows the winning top-1 news-image formula: cream broadsheet,
+THE DAY IN UTC timeline, THE DAY IN NUMBERS, three numbered heroes, a
+10-story grid, a world map with numbered dots (each number matches the
+story list), an ALSO TODAY list, a DATE CHECK audit bar, and a footer
+guaranteeing every story happened or was first reported on 21 November 2026.
+All 33 stories are sourced (AP, Reuters, BBC, Al Jazeera, UN News, Nature,
+Le Monde, IANS, DFAT, The Guardian); claims that are not yet verified are
+tagged CLAIMED, never stated as fact.
 
-`entry.png` (1024×1024) is the poster. `main.py` copies it to the output directory byte for byte, so running the program twice produces the exact same file.
-
-## Run it
-
-```sh
-python3 main.py
-```
-
-The program writes `$MAKEFUN_OUTPUT_DIR/entry.png` (`/output` by default). It uses only the Python standard library.
-
-## License
-
-MIT — see `LICENSE`.
+Run `main.py` — it copies `entry.png` to `$MAKEFUN_OUTPUT_DIR/entry.png`.
